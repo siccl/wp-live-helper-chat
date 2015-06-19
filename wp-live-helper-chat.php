@@ -119,7 +119,7 @@ if ( !class_exists( 'livehelperchat' ) ) {
 						<div class="wplhc-donate" style="padding: 1rem; background: rgba(0, 0, 0, .02);">
 						  <h3>Like this plugin</h3>
 						  <p>Developed By: <a href="http://www.midlandwebcompany.com" title="Cisit Us" target="new">www.midlandwebcompany.com</a></p>
-							<p><img src="http://www.midlandwebcompany.com/wp-content/uploads/2015/06/wp-live-helper-chat-midkand-web-company-logo.png" alt="Visit Us" longdesc="http://www.midlandwebcompany.com" /></p>
+							<p><a href="www.midlandwebcompany.com"><img src="http://www.midlandwebcompany.com/wp-content/uploads/2015/06/wp-live-helper-chat-midkand-web-company-logo.png" alt="Visit Us" longdesc="http://www.midlandwebcompany.com" /></a></p>
 						</div>
 	  </div></td>
   </tr>
