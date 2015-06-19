@@ -77,14 +77,19 @@ if ( !class_exists( 'livehelperchat' ) ) {
 		   
 				
 		function wplhc_options_panel() { ?>
+        
+        
+        
 <div id="wplhc-wrap">
 	<div class="wrap">
 				<?php screen_icon(); ?>
 					<h2>WP Live Helper Chat</h2>
 					<hr />
-					<div class="wplhc-wrap" style="width: auto;float: left;margin-right: 2rem;"><hr />
-					
-						<form name="dofollow" action="options.php" method="post">
+                    
+                    
+<table class="widefat" width="auto" border="0">
+  <tr>
+    <td valign="top"><form name="dofollow" action="options.php" method="post">
 						
 							<?php settings_fields( 'wp-live-helper-chat' ); ?>
                         	
@@ -94,8 +99,8 @@ if ( !class_exists( 'livehelperchat' ) ) {
 							  <input class="button button-primary" type="submit" name="Submit" value="Save settings" /> 
 						</h3>
 
-						</form></div>
-                        <div class="wplhc-sidebar" style="max-width: 270px;float: left;">
+						</form></td>
+    <td style="border:1px; border-color:#666"><div class="wplhc-sidebar" style="max-width: 270px;float: left;">
 						<div class="wplhc-improve-site" style="padding: 1rem; background: rgba(0, 0, 0, .02);">
 							<h2>Need Hosting for Live Helper Chat!</h2>
 							<p>We wrote Live Helper Chat, and we can host it for you, too. By ordering Live Helper Chat hosting here you also support futher development.</p>
@@ -111,8 +116,21 @@ if ( !class_exists( 'livehelperchat' ) ) {
 							<p>Developing application takes a lot of time. You can support application by donating. There is no company behind this application and it takes away my free time. Every donation matters and does not matter how small it is!</p>
 							<p><a href="https://livehelperchat.com/support-project-4c.html" target="_blank"><img src="<?php  echo plugin_dir_url( __FILE__ ); ?>images/paypal-donate.gif" alt="Subscribe to our Blog" style="margin: 0 5px 0 0; vertical-align: top; line-height: 18px;"/></a></p>
 						</div>
-						
-				  </div>
+						<div class="wplhc-donate" style="padding: 1rem; background: rgba(0, 0, 0, .02);">
+						  <h3>Like this plugin</h3>
+						  <p>Developed By: <a href="http://www.midlandwebcompany.com" title="Cisit Us" target="new">www.midlandwebcompany.com</a></p>
+							<p><img src="http://www.midlandwebcompany.com/wp-content/uploads/2015/06/wp-live-helper-chat-midkand-web-company-logo.png" alt="Visit Us" longdesc="http://www.midlandwebcompany.com" /></p>
+						</div>
+	  </div></td>
+  </tr>
+</table>
+                    
+                    
+                    
+					<div class="wplhc-wrap" style="width: auto;float: left;margin-right: 2rem;"><hr />
+					
+						</div>
+                        
 					</div>
 				</div>
 				
